@@ -1,0 +1,49 @@
+{
+  "name": "swing",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --mode development --display-error-details --progress --colors",
+    "build": "NODE_ENV=production webpack --mode production --display-error-details --progress --colors  --hide-modules",
+    "compile-sass": "node-sass --include-path scss scss/index.scss ./../css/index.css  -w"
+  },
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-async-to-generator": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^6.7.7",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.18.2",
+    "es6-promise": "^4.2.4",
+    "eslint": "^5.3.0",
+    "eslint-loader": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-convert-encoding": "^1.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.10.0",
+    "prettier": "^1.14.2",
+    "uglify-save-license": "^0.4.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.27.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.5",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.11",
+    "natives": "^1.1.6",
+    "p5": "^0.8.0",
+    "velocity-animate": "^1.5.2"
+  }
+}
