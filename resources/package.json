@@ -30,7 +30,7 @@
     "gulp-convert-encoding": "^1.0.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.1",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.14.2",
     "uglify-save-license": "^0.4.1",
     "uglifyjs-webpack-plugin": "^2.0.1",
